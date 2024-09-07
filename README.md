@@ -54,33 +54,6 @@
    ```bash
    npm start
 
-## Project Structure
-jobify/
-├── client/                     # Frontend (React)
-│   ├── public/
-│   ├── src/
-│   │   ├── components/         # React components
-│   │   ├── pages/              # Pages (Home, Job Listings, Profile, etc.)
-│   │   ├── App.js              # Main app component
-│   │   ├── index.js            # React entry point
-│   │   └── ...
-│   └── package.json            # React dependencies
-│
-├── server/                     # Backend (Node.js + Express)
-│   ├── controllers/            # Business logic
-│   ├── models/                 # Mongoose models (User, Job, Interview, etc.)
-│   ├── routes/                 # API routes
-│   ├── middleware/             # JWT authentication
-│   ├── server.js               # Server setup
-│   └── package.json            # Backend dependencies
-│
-├── config/                     # Environment and database configuration
-│   └── db.js                   # MongoDB connection
-│
-├── .gitignore                  # Ignored files
-├── README.md                   # Project documentation
-└── ...
-
 ## API Endpoints
 
 ### Job Routes:
